@@ -45,3 +45,12 @@ To download the bulk RNAseq data at GDC
 ### Update - raw data download notes
 - 18.08.2025: downloading data from bulkRNA phs000892 and phs001287. Downloading data from proteomics PDC000120, PDC000205, PDC000441.  
 - 18.08.2025 - 15:00:00: download error, maybe too much traffic, check the manifest and re-download failed samples only later. 
+
+## How to link the metadata of the PDC and GDC dataset
+
+### Download metadata from PDC - for the proteomics dataset
+Go to the link https://proteomic.datacommons.cancer.gov/pdc/study/PDC000120 (e.g. for the dataset PDC000120). Download the clincal information in tab "Clinical", export to **.tsv**. The column "Case submitter ID" is the key column, which is used to connect with other metadata (e.g. for bulk RNA seq data).
+
+### Download metadata from GDC - for the bulk RNA seq dataset
+Go to the data portal of GDC, e.g. https://portal.gdc.cancer.gov/projects/CPTAC-3 or https://portal.gdc.cancer.gov/projects/CPTAC-2, click on the "Clinical" button and choose export to JSON files. 
+

@@ -1,0 +1,4 @@
+proteomics_Dataset,proteomics_Dataset_name,bulkRNA_Dataset,bulkRNA_Dataset_name,Label,proteomics_link,proteomics_local_path,proteomics_metadata,bulkRNA_link,bulkRNA_local_path,bulkRNA_metadata
+PDC000120,BC phosphorylated proteomics data,phs000892,BC bulk RNA-seq,BC,,,kinase_prediction/metadata/proteomics/PDC_study_clinical_08202025_144931.tsv,,,kinase_prediction/metadata/bulkRNA/clinical.project-cptac-2.2025-08-20.json
+PDC000205,GBM phosphorylated proteomics data,phs001287,GBM bulk RNA-seq,GBM,,,kinase_prediction/metadata/proteomics/PDC_study_clinical_08202025_145136.tsv,,,kinase_prediction/metadata/bulkRNA/clinical.project-cptac-3.2025-08-20.json
+PDC000441,UCEC phosphorylated proteomics data,phs001287,UCEC bulk RNA-seq,UCEC,,,kinase_prediction/metadata/proteomics/PDC_study_clinical_08202025_145039.tsv,,,kinase_prediction/metadata/bulkRNA/clinical.project-cptac-3.2025-08-20.json
