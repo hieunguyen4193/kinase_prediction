@@ -28,7 +28,7 @@ UCEC phosphorylated proteomics data	https://pdc.cancer.gov/	Access ID: PDC000441
 BC scRNA-seq	https://www.ncbi.nlm.nih.gov/	Access ID: GSE180286
 LSCC scRNA-seq	https://www.ncbi.nlm.nih.gov/	Access ID: GSE131907
 
-## Instruction
+## Instruction  
 To download the "phosphorylated proteomics data":
 - Database link: https://proteomic.datacommons.cancer.gov/pdc/ 
 - Choose disease type, e.g. Colon Adenocarcinoma, Link: https://proteomic.datacommons.cancer.gov/pdc/browse/filters/disease_type:Colon%20Adenocarcinoma 
@@ -40,6 +40,8 @@ To download the "phosphorylated proteomics data":
 
 To download the bulk RNAseq data at GDC
 - For dataset BC bulk RNA-seq	https://gdc.cancer.gov/	dbGaP: phs000892, go to https://portal.gdc.cancer.gov/projects/CPTAC-2
-
 - For dataset GBM bulk RNA-seq	https://gdc.cancer.gov/	dbGaP: phs001287 https://portal.gdc.cancer.gov/projects/CPTAC-3 
 
+### Update - raw data download notes
+- 18.08.2025: downloading data from bulkRNA phs000892 and phs001287. Downloading data from proteomics PDC000120, PDC000205, PDC000441.  
+- 18.08.2025 - 15:00:00: download error, maybe too much traffic, check the manifest and re-download failed samples only later. 
